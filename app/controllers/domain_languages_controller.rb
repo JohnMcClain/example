@@ -1,0 +1,2 @@
+class DomainLanguagesController < ApplicationController
+end
