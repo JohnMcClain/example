@@ -1,8 +1,12 @@
 # SQLite version 3.x
 #   gem install sqlite3
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: mysql
+  encoding: utf8
+  database: global
+  username: johnmcclain
+  password: mitchmitch
+  host: db4free.net
   pool: 5
   timeout: 5000
 
